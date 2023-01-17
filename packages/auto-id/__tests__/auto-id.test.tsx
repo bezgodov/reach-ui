@@ -26,8 +26,8 @@ describe("useId", () => {
 		}
 
 		let { getByText } = render(<Comp />);
-		let id1 = Number(getByText("Wow").id);
-		let id2 = Number(getByText("Ok").id);
+		let id1 = getByText("Wow").id;
+		let id2 = getByText("Ok").id;
 		expect(id2).not.toEqual(id1);
 	});
 	it("uses a fallback ID", () => {

@@ -1,6 +1,7 @@
 # Welcome to Reach UI Development ♿️
 
-Thanks for getting involved with Reach UI development!
+Thanks for getting involved with Reach UI development!\
+Support React@18 (except ListBox component)
 
 ## Looking for the documentation?
 
